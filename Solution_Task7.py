@@ -72,6 +72,11 @@ def Q6():
         print(num, end=' ')
 
 
-Q6()
+# ----------- Q7 -----------
+def Q7():
+    for num in range(0, 55, 5):
+        if num == 0:
+            continue
+        print(num, end=' ')
 
 
