@@ -1,0 +1,37 @@
+﻿Task 7 - Loops
+
+
+Note: You have to use functions and parameters in every question below.
+Upload Your code into a new GitHub repo (task 7), and Put the repo link in the classroom.
+
+
+1. Write a program to accept the number of rows from the user and print the following number pattern using a loop (example rows=5).
+  
+
+
+
+2. Write a program to accept a number from a user and calculate the sum of all numbers from 1 to a given number
+For example, if the user entered 10 the output should be 55 (1+2+3+4+5+6+7+8+9+10) 
+(Do NOT use the sum() built-in function)
+Expected Output:
+  
+
+3. Write a program to accept a name from a user and print the following output:
+  
+
+
+
+4. Write a program to get a word from a user and print that word reversed.
+  
+
+5. Write a program to print n natural numbers in descending order using a while loop.
+  
+
+6. Write a program to display the first 10 multiples of 5.
+  
+
+
+   7. (3 marks) (related to task 6) Write a program that takes 3 numbers from the user:
+        Limit_number: the last number that the loop can reach.
+        Target_number: the number that the loop should start from.
+        Max_display_on_screen: the number of maximum times that the multiple of target_number could display on the screen.
