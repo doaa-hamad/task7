@@ -73,10 +73,17 @@ def Q6():
 
 
 # ----------- Q7 -----------
-def Q7():
-    for num in range(0, 55, 5):
-        if num == 0:
-            continue
-        print(num, end=' ')
+# limit_num = int(input("Enter the Limit_number: "))
+# max_display_on_screen = int(input("Enter the maximum outputs to display (Max_display_on_screen: "))
+# target_number = int(input("Enter the Target_number: "))
+
+
+def Q7(limit_num, max_display_on_screen, target_number):
+    for num in range(1, max_display_on_screen + 1):
+        if max_display_on_screen < limit_num:
+            print(num * target_number, end=" ")
+
+
+Q7(300, 8, 4)
 
 
